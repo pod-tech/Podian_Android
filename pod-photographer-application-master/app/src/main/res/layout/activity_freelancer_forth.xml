@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_form_bg"
+    android:orientation="vertical"
+    tools:context=".Activity.Freelancer">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:orientation="horizontal"
+        android:weightSum="15">
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_keyboard_backspace" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:layout_weight="14"
+            android:fontFamily="@font/fontexbold"
+            android:gravity="center"
+            android:text="Registration Details"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/_18sdp" />
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:padding="@dimen/_3sdp"
+        card_view:cardBackgroundColor="@android:color/white"
+        card_view:cardCornerRadius="@dimen/_20sdp"
+        card_view:cardElevation="@dimen/_1sdp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_10sdp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:textColorHint="@color/blue"
+                    android:theme="@style/Theme.AppCompat3">
+
+                    <EditText
+                        android:id="@+id/ed_insta_url"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:backgroundTint="#555555"
+                        android:ems="10"
+                        android:fontFamily="@font/fontex"
+                        android:hint="Share your Instagram URL"
+                        android:inputType="textUri"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/_14sdp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:textColorHint="@color/blue"
+                    android:theme="@style/Theme.AppCompat3">
+
+                    <EditText
+                        android:id="@+id/ed_portfolio_url"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:backgroundTint="#555555"
+                        android:ems="10"
+                        android:fontFamily="@font/fontex"
+                        android:hint="Share your portfolio URL"
+                        android:inputType="textUri"
+                        android:maxLines="1"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/_14sdp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    android:id="@+id/tv_Lenses"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_3sdp"
+                    android:backgroundTint="#555555"
+                    android:ems="10"
+                    android:fontFamily="@font/fontex"
+                    android:text="Which Camera and Lenses do you have and use, elaborate?"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/_14sdp" />
+
+                <EditText
+                    android:id="@+id/ed_cam_body"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:backgroundTint="#555555"
+                    android:ems="10"
+                    android:fontFamily="@font/fontex"
+                    android:hint="Camera body"
+                    android:inputType="textUri"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_14sdp" />
+
+                <EditText
+                    android:id="@+id/ed_cam_lenses_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:backgroundTint="#555555"
+                    android:ems="10"
+                    android:fontFamily="@font/fontex"
+                    android:hint="Lenses - 1"
+                    android:inputType="textUri"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_14sdp" />
+
+                <EditText
+                    android:id="@+id/ed_cam_lenses_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:backgroundTint="#555555"
+                    android:ems="10"
+                    android:fontFamily="@font/fontex"
+                    android:hint="Lenses - 2"
+                    android:inputType="textUri"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_14sdp" />
+
+                <EditText
+                    android:id="@+id/ed_cam_lenses_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:backgroundTint="#555555"
+                    android:ems="10"
+                    android:fontFamily="@font/fontex"
+                    android:hint="Lenses - 3"
+                    android:inputType="textUri"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/_14sdp" />
+
+                <RadioGroup
+                    android:id="@+id/rd_radio_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5sdp">
+
+                    <TextView
+                        android:id="@+id/tv_radio_title_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="@dimen/_3sdp"
+                        android:layout_marginBottom="@dimen/_3sdp"
+                        android:backgroundTint="#555555"
+                        android:ems="10"
+                        android:fontFamily="@font/fontex"
+                        android:text="Availibility on days in a week?"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/_14sdp" />
+
+                    <RadioButton
+                        android:id="@+id/rd_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:fontFamily="@font/fontex"
+                        android:text="All days (24*7)"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/_11sdp" />
+
+                    <RadioButton
+                        android:id="@+id/rd_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/fontex"
+                        android:text="Early Mornings (5AM-8AM)"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/_11sdp" />
+
+                    <RadioButton
+                        android:id="@+id/rd_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+                        android:fontFamily="@font/fontex"
+                        android:text="Evenings (5PM -8PM)"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/_11sdp" />
+
+                    <RadioButton
+                        android:id="@+id/rd_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/fontex"
+                        android:text="Late Nights (8PM -12AM)"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/_11sdp" />
+
+                    <RadioButton
+                        android:id="@+id/rd_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/fontex"
+                        android:text="Weekends (24*2)"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/_11sdp" />
+
+                </RadioGroup>
+
+                <androidx.cardview.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_25sdp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_marginRight="@dimen/_25sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:padding="@dimen/_3sdp"
+                    card_view:cardBackgroundColor="@color/sign_up_bg"
+                    card_view:cardCornerRadius="@dimen/_20sdp"
+                    card_view:cardElevation="@dimen/_2sdp">
+
+                    <Button
+                        android:id="@+id/bt_continue_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:clickable="true"
+                        android:fontFamily="@font/fontexbold"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:text="Continue"
+                        android:textStyle="bold" />
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

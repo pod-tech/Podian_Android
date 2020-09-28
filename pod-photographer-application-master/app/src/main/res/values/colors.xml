@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FBAF40</color>
+    <color name="colorPrimaryDark">#FBAF40</color>
+    <color name="colorAccent">#FBAF40</color>
+    <color name="background">#fdfdfd</color>
+    <color name="sign_up_bg">#fcb040</color>
+    <color name="facebook_bg">#0685dd</color>
+    <color name="blue">#293B72</color>
+
+    <color name="confirm">#81C283</color>
+    <color name="placed">#FBAF40</color>
+    <color name="cancel">#F86A6A</color>
+
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/corner_all_orange"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fontexbold"
+        android:textSize="@dimen/_14ssp"
+        android:gravity="center"
+        android:layout_margin="@dimen/_5sdp"
+        android:text="Please select following things" />
+
+    <CheckBox
+        android:id="@+id/ch_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Camera lens" />
+
+    <CheckBox
+        android:id="@+id/ch_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Battery" />
+
+    <CheckBox
+        android:id="@+id/ch_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="External flash" />
+
+    <CheckBox
+        android:id="@+id/ch_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Empty memory card" />
+
+    <CheckBox
+        android:id="@+id/ch_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Additional memory card" />
+
+    <CheckBox
+        android:id="@+id/ch_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Additional battery" />
+
+    <CheckBox
+        android:id="@+id/ch_7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Additional battery for flash light" />
+
+    <CheckBox
+        android:id="@+id/ch_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reach at the shoot location 10 minutes before the shoot time" />
+
+    <CheckBox
+        android:id="@+id/ch_9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select both raw and jpg file option" />
+
+    <CheckBox
+        android:id="@+id/ch_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please change the file name with pod your name before every shoot" />
+
+    <Button
+        android:id="@+id/bt_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_15sdp"
+        android:layout_weight="5"
+        android:background="@drawable/corner_all_black"
+        android:text="Submit"
+        android:textColor="@color/colorAccent" />
+
+</LinearLayout>

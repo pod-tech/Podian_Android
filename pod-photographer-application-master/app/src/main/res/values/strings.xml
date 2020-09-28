@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">POD Photographer</string>
+
+    <string name="server_client_id">73490473596-7l5kmem2g3hm8tfb90lhrqbbifpk6gv6.apps.googleusercontent.com</string>
+    <string name="booknow">Thank you for writing back to us. We have received your message. Our team will
+get back to you within 48 working hrs.</string>
+
+    <string name="facebook_app_id">2466769160085518</string>
+    <string name="fb_login_protocol_scheme">fb2466769160085518</string>
+    <string name="logout">Log Out</string>
+    <string name="nav_Profile">My Profile</string>
+    <string name="nav_Booking">My Booking</string>
+    <string name="nav_Reset_psw">Reset Password</string>
+    <string name="nav_About_US">About us</string>
+    <string name="nav_Terms_c">Terms and Condition</string>
+    <string name="nav_UserGuid">User Guid</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Activity</item>
+        <item>Events</item>
+        <item>Gallery</item>
+        <item>Donation</item>
+        <item>Manage Tourism</item>
+        <item>Need Help</item>
+        <item>About Us</item>
+        <item>Contact</item>
+        <item>FAQ</item>
+        <item>Log out</item>
+    </string-array>
+
+    <string-array name="android_dropdown_start_time_arrays">
+        <item>Start time</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+    </string-array>
+
+    <string-array name="android_dropdown_end_time_arrays">
+        <item>End time</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+    </string-array>
+
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_Home">Home</string>
+    <string name="google_maps_key">AIzaSyAdDdtLpq-AfPH8iP9OlzZ6KyPXnhDDYNs</string>
+    <string name="terms_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+    <string name="error_pod">Something went wrong. Please try again later.</string>
+    <string name="privacy_policy">privacy policy</string>
+    <string name="contact_us">Contact us</string>
+    <string name="log_out">Log out</string>
+    <string name="register_now"><u>Register Now</u></string>
+
+</resources>

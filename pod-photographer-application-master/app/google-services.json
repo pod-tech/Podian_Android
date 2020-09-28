@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "682550228524",
+    "firebase_url": "https://pod-vendor.firebaseio.com",
+    "project_id": "pod-vendor",
+    "storage_bucket": "pod-vendor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682550228524:android:ce19a22fe49a652f770389",
+        "android_client_info": {
+          "package_name": "com.seawindsolution.podphotographer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "682550228524-s5dm5ius93sm9m8q2cs149heu1v22822.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.seawindsolution.podphotographer",
+            "certificate_hash": "07c10808d801ffb364ed56eaccdd493733e152ef"
+          }
+        },
+        {
+          "client_id": "682550228524-u4vttkqndc5c9dl7tev2a11ihathlahv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_OaZ3unpXSFK47ZWDT_6g_2QAKA2jc4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "682550228524-u4vttkqndc5c9dl7tev2a11ihathlahv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
